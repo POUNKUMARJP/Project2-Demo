@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>	
+<form th:action="@{/searchDate}" target="_blank">
+	<h4 th:if="${hasListWord=='False'}" th:style="'color: red;'">Data Not Found</h4>
+    <input type="text" title="Numbers only, please." minlength="10" name="keyword" id="keyword" size="20" Style ="margin-left:800px" th:value="${firstDate}" required />
+    &nbsp;
+    <input type="submit" value="Search" />
+</form>
+</body>
+</html>

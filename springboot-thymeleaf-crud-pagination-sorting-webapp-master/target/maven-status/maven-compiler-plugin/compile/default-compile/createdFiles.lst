@@ -1,0 +1,6 @@
+net/javaguides/springboot/repository/WordRepository.class
+net/javaguides/springboot/service/WordServiceImpl.class
+net/javaguides/springboot/service/WordService.class
+net/javaguides/springboot/SpringbootThymeleafCrudWebAppApplication.class
+net/javaguides/springboot/model/Word.class
+net/javaguides/springboot/controller/WordController.class
